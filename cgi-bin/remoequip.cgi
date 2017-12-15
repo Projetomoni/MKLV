@@ -12,7 +12,7 @@ echo "<script lang='javascript'>"
 if [[ $IP != '' ]] ; then
 	if [[ $CIP != '' ]] ; then
 		if [[ $IP == $CIP ]] ; then
-			grep -v "^$IP;" registrados.csv > registrados.new
+			grep -v "$IP$;" registrados.csv > registrados.new
 			mv registrados.new registrados.csv
 			chmod 777 equi.csv
 			echo "$(date);$IP;REMOVIDO" >> registrados.log
