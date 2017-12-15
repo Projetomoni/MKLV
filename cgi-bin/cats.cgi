@@ -26,7 +26,8 @@ if [[ $VAI == "atual" ]] ; then
 um
 if [[ $VAI == "completo" ]] ; then
 dois
-if [[ $VAI == "equipamentos" ]] ; then
+if [[ $VAI == "monitorados" ]] ; then
+tres
 else
 echo "Opção Inexistente"
 fi
