@@ -24,12 +24,10 @@ tres(){
 
 if [[ $VAI == "atual" ]] ; then
 um
-if [[ $VAI == "completo" ]] ; then
+elif [[ $VAI == "completo" ]] ; then
 dois
-if [[ $VAI == "monitorados" ]] ; then
+elif [[ $VAI == "monitorados" ]] ; then
 tres
 else
 echo "Opção Inexistente"
-fi
-fi
 fi
