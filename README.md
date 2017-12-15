@@ -21,7 +21,7 @@ nos diretórios necessários
 devidos lugares.
 
 2.No primeiro acesso ao site use o usuário "admin" e
-a senha tambeém use "admin".
+senha "admin".
 =====================================================
                   Para Remover
 =====================================================
@@ -37,8 +37,9 @@ Obs: tudo relacionado ao aplicativo será removido
 =====================================================
 Caso tenha mais alguma dúvida envie um email para
 matheus_custodio2017@hotmail.com
+kennedy-eduardo10@hotmail.com
 
 ========================================================================================================================================
                                                                Dialog
 ========================================================================================================================================
-Para uso do dialog de um git clone em http://github.com/VictoriaPereira/Monit.
+Para uso do dialog use o comando "git clone em http://github.com/VictoriaPereira/Monit."
