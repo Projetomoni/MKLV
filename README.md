@@ -1,4 +1,4 @@
-                    Para Instalar
+              Para Instalar O Site
 =====================================================
 1. É necessário estar logado como root
 
@@ -11,13 +11,19 @@
 3. O script fará o backup antes de fazer a instalação
 nos diretórios necessários
 =====================================================
-        Aplicativos a serem instalados
+          Aplicativos a serem instalados
 =====================================================
 1.Apache2
-
-2.Dialog
 =====================================================
-                Para Remover
+                 Após a Instalação 
+=====================================================
+1.Todos os diretórios serão direcionados aos seus
+devidos lugares.
+
+2.No primeiro acesso ao site use o usuário "admin" e
+a senha tambeém use "admin".
+=====================================================
+                  Para Remover
 =====================================================
 1. É necessário estar logado como root
 
@@ -25,5 +31,14 @@ nos diretórios necessários
 
 # bash remove.sh
 
-Obs: tudo relacionado aos aplicativos será removido
+Obs: tudo relacionado ao aplicativo será removido
 =====================================================
+                        Contato
+=====================================================
+Caso tenha mais alguma dúvida envie um email para
+matheus_custodio2017@hotmail.com
+
+========================================================================================================================================
+                                                               Dialog
+========================================================================================================================================
+Para uso do dialog de um git clone em http://github.com/VictoriaPereira/Monit.
