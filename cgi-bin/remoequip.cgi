@@ -20,14 +20,14 @@ if [[ $IP != '' ]] ; then
 			echo "location.href='../index.html'"
 		else
 			echo "alert('Campos não coincidem.');"
-			echo "location.href='../index.html'"
+			echo "location.href='../menu.html'"
 		fi
 	else
 		echo "alert('Campos vazios.');"
-		echo "location.href='../index.html'"
+		echo "location.href='../menu.html'"
 	fi
 else
 	echo "alert('Campos vazios.');"
-	echo "location.href='../index.html'"
+	echo "location.href='../menu.html'"
 fi
 echo "</script>"
