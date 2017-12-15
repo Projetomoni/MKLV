@@ -16,10 +16,17 @@ dois(){
 	done
 }
 
+tres(){
+	for x in $(cat ./registrados.csv); do
+		echo "<p>$x</p>"
+	done
+}
+
 if [[ $VAI == "atual" ]] ; then
 um
-elif [[ $VAI == "completo" ]] ; then
+if [[ $VAI == "completo" ]] ; then
 dois
+if [[ $VAI == "equipamentos" ]] ; then
 else
 echo "Opção Inexistente"
 fi
