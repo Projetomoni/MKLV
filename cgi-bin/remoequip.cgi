@@ -12,10 +12,10 @@ echo "<script lang='javascript'>"
 if [[ $IP != '' ]] ; then
 	if [[ $CIP != '' ]] ; then
 		if [[ $IP == $CIP ]] ; then
-			grep -v "^$IP;" equi.csv > equi.new
-			mv equi.new equi.csv
+			grep -v "^$IP;" registrados.csv > registrados.new
+			mv registrados.new registrados.csv
 			chmod 777 equi.csv
-			echo "$(date);$IP;REMOVIDO" >> equi.log
+			echo "$(date);$IP;REMOVIDO" >> registrados.log
 			echo "alert('Equipamento removido.');"
 			echo "location.href='../menu.html'"
 		else
