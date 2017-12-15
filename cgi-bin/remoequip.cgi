@@ -17,7 +17,7 @@ if [[ $IP != '' ]] ; then
 			chmod 777 equi.csv
 			echo "$(date);$IP;REMOVIDO" >> equi.log
 			echo "alert('Equipamento removido.');"
-			echo "location.href='../index.html'"
+			echo "location.href='../menu.html'"
 		else
 			echo "alert('Campos não coincidem.');"
 			echo "location.href='../menu.html'"
