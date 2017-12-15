@@ -30,3 +30,5 @@ if [[ $VAI == "equipamentos" ]] ; then
 else
 echo "Opção Inexistente"
 fi
+fi
+fi
